@@ -1,0 +1,17 @@
+{
+  "name": "chatgpt-binance-ticker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "binance-api-node": "^0.12.7",
+    "date-fns": "^3.6.0",
+    "node-binance-api": "^0.13.1"
+  }
+}
