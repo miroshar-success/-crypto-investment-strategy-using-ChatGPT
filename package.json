@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.mjs",
+    "postinstall": "node ./scripts/postinstall.mjs"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "binance-api-node": "^0.12.7",
-    "date-fns": "^3.6.0",
-    "node-binance-api": "^0.13.1"
+    "gpt4all": "4.0.0",
+    "node-binance-api": "0.13.1"
   }
 }
